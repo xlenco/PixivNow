@@ -1,7 +1,7 @@
 import { VercelRequest, VercelResponse } from '@vercel/node'
 import { handleError } from '../utils'
 // import PixivApp from 'pixiv-app-api'
-import * as PixivApp from 'pixiv-api-client'
+import PixivApp from 'pixiv-api-client'
 
 export default async (req: VercelRequest, res: VercelResponse) => {
   if (req.method !== 'POST') {
