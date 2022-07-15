@@ -26,7 +26,7 @@ import type { User } from '../types'
 const props = defineProps<{
   user: User
 }>()
-const API = ref('https://pixiv.xlenco.workers.dev')
+const API = ref('https://pixiv-p.vercel.app')
 </script>
 
 <style scoped lang="sass">
